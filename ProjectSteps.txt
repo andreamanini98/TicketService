@@ -1,0 +1,13 @@
+This document will describe the steps performed in order to complete the project.
+
+1) Understanding of the text and assumptions definition.
+   Assumptions:
+    - All measures are in seconds
+    - With 'pending jobs' we consider all the jobs in the system (queues + server). That is, with pending jobs we mean the jobs that have not been dropped and that have still to exit from the system, regardless if they are waiting in a queue or being served in a station.
+
+2) Fitting of the traces distribution.
+   This has been done considering the quality of the fitting and the hints given by the coefficient of variation.
+
+3) Conversion of the MMPP measurement units in seconds.
+
+4) Creation of a first model in jmt using open queuing networks.

@@ -1,0 +1,22 @@
+1) Definition of a open class.
+2) Definition of MMPP arrivals for such class.
+3) Insertion of the source node.
+4) Insertion of 4 stations, one for each stage.
+5) Insertion of the sink.
+6) Connection of the components with one another.
+7) Definition of the duration of each stage according to the fitted distributions.
+8) Definition of a finite capacity region for the 4 stations.
+9) Definition of the performance indexes.
+10) Using utilization for fine-tuning the model.
+
+After the first run, the following (average) utilizations have been achieved:
+Uw = 0.0291
+Us = 1.0000
+Up = 0.1990
+Ui = 0.1796
+
+Also, the average number of customers in each station has been taken into account for considering which station to enhance.
+
+The utilization of Us ih high, could be a bottleneck, let's try to decrease it increasing the number of servers.
+
+The servers in which the utilization was initially quite high have been tuned by hand til the final configuration has been achieved.

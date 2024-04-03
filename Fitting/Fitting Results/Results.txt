@@ -1,0 +1,17 @@
+Distributions
+
+W:
+    Erlang < k = 36, lambda = 4.79 * 1000 >
+    Cv = 0.1667
+
+S:
+    Exp < lambda = 0.0039854 * 1000 >
+    Cv = 1.0052
+
+P:
+    Exp < lambda = 0.0201 * 1000 >
+    Cv = 1.0014
+
+I:
+    HyperExp < lambda1 = 0.009 * 1000, lambda2 = 0.0358 * 1000, p = 0.2032 >
+    Cv = 1.4553
